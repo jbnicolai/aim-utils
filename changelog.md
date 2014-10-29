@@ -8,4 +8,6 @@ v1.0.2 - fix readme for npm
 
 v1.0.3 - final fixes to readme
 
-v.1.0.4 - fixed changing format for format
+v.1.0.4 - fixed format for npm
+
+v1.0.5 - tidy up example

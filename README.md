@@ -41,9 +41,9 @@ var Console = require('aim-utils');
 var AimUtils = new Console();
 
 AimUtils.info('This', 'is', 'an', 'info', 'message', object, array);
-AimUtils.warn('This', 'is', 'an', 'info', 'message', object, array);
-AimUtils.error('This', 'is', 'an', 'info', 'message', object, array);
-AimUtils.fatal('This', 'is', 'an', 'info', 'message', object, array);
+AimUtils.warn('This', 'is', 'an', 'warn', 'message', object, array);
+AimUtils.error('This', 'is', 'an', 'error', 'message', object, array);
+AimUtils.fatal('This', 'is', 'an', 'fatal', 'message', object, array);
 ```
 
 <!---
