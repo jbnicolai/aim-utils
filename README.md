@@ -1,10 +1,17 @@
-# aim-utils for aimSvr
+# aim-utils
 
 ### About module
 
-+ This project is currently a console logger with datetime, colours and basic formatting.
-+ Future releases to improve methods for starting and stopping logging for production environments plus the ability to write log to physical file when console is disabled.
-+ Ability to pass options to constructor function to accept different properties and configurations.  Also testing and more configuration options to follow with API docs.
++ This project is currently a console logger with datetime, colours and basic formatting
+
+### Goals
+
+The project will have the following targets;
+
++ Add methods for enabling and disabling logging to console for production environments
++ The ability to write logs to physical file within local file system when console is disabled
++ Pass configurable options to constructor function to accept different properties - colours, levels, time & date format and silence console
++ Write test cases to ensure 100% test code coverage
 
 ### Installation
 
@@ -40,10 +47,10 @@ _(Coming soon)_
 var Console = require('aim-utils');
 var AimUtils = new Console();
 
-AimUtils.info('This', 'is', 'an', 'info', 'message', object, array);
-AimUtils.warn('This', 'is', 'an', 'warn', 'message', object, array);
-AimUtils.error('This', 'is', 'an', 'error', 'message', object, array);
-AimUtils.fatal('This', 'is', 'an', 'fatal', 'message', object, array);
+AimUtils.info('This', 'is', 'an', 'info', 'message', object, array); \\ This is an info message
+AimUtils.warn('This', 'is', 'a', 'warning', 'message', object, array); \\ This is a warning message
+AimUtils.error('This', 'is', 'an', 'error', 'message', object, array); \\ This is an error message
+AimUtils.fatal('This', 'is', 'an', 'fatal', 'message', object, array); \\ This is a fatal message
 ```
 
 <!---
