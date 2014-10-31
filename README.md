@@ -2,7 +2,8 @@
 
 ### About module
 
-+ This project is currently a console logger with datetime, colours and basic formatting
+This project is currently a console logger with datetime, colours and loglevels.
+It uses 'util.format' to space strings, objects, arrays and integers without the need to format.
 
 ### Goals
 
@@ -45,12 +46,24 @@ _(Coming soon)_
 
 ```javascript
 var Console = require('aim-utils');
-var AimUtils = new Console();
+var options = 'YYYY MM DD HH:mm:SSS'; // moment tie date string
+var AimUtils = new Console(options);
 
-AimUtils.info('This', 'is', 'an', 'info', 'message', object, array); \\ This is an info message
-AimUtils.warn('This', 'is', 'a', 'warning', 'message', object, array); \\ This is a warning message
-AimUtils.error('This', 'is', 'an', 'error', 'message', object, array); \\ This is an error message
-AimUtils.fatal('This', 'is', 'an', 'fatal', 'message', object, array); \\ This is a fatal message
+var object = {a:1, b:2}
+var array =['a', 'b', 'c'];
+
+
+AimUtils.info('This', 'is', 'an', 'info', 'message', object, array);
+// This is an info message {a:1, b:2} ['a', 'b', 'c']
+AimUtils.warn('This', 'is', 'a', 'warning', 'message', object, array);
+// This is a warning message {a:1, b:2} ['a', 'b', 'c']
+AimUtils.debug('This', 'is', 'a', 'warning', 'message', object, array);
+// This is a warning message {a:1, b:2} ['a', 'b', 'c']
+AimUtils.error('This', 'is', 'an', 'error', 'message', object, array);
+// This is an error message {a:1, b:2} ['a', 'b', 'c']
+AimUtils.fatal('This', 'is', 'an', 'fatal', 'message', object, array);
+// This is a fatal message {a:1, b:2} ['a', 'b', 'c']
+
 ```
 
 <!---
