@@ -12,4 +12,8 @@ v.1.0.4 - fixed format for npm
 
 v1.0.5 - tidy up example
 
-v1.0.6 = changed formatting of console
+v1.0.6 - changed formatting of console
+
+v1.0.7 - fixed returns of functions due to bug with incorrect order and times being displayed async and not sync order.  Addedd ability to pass as only option the moment format string to constructor function to tailor console time and date to users liking.
+
+v1.0.8 - added debugMode options to silence console when set to false, object required to pass to constructor function to use.

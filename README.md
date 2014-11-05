@@ -46,7 +46,11 @@ _(Coming soon)_
 
 ```javascript
 var Console = require('aim-utils');
-var options = 'YYYY MM DD HH:mm:SSS'; // moment tie date string
+var options = {
+  timeDate: 'YYYY MM DD HH:mm:SSS', // moment time date string
+  debugMode: true // set to false to silent printing of debug messages to console
+};  
+
 var AimUtils = new Console(options);
 
 var object = {a:1, b:2}
