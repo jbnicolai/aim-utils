@@ -14,40 +14,21 @@ The project will have the following targets;
 + Pass configurable options to constructor function to accept different properties - colours, levels, time & date format and silence console
 + Write test cases to ensure 100% test code coverage
 
-### Installation
+## Getting Started
 
-
-
+Install the module with
 ````bash
-npm install aim-utils
+ `npm install aim-utils`
+
 
 ````
-
-
-<!---
-###aim-utils for aimSvr
-
-
-## Getting Started
-Install the module with: `npm install AimUtils`
-
-```javascript
-var Console = require('aim-utils');
-var AIMUtils = new Console();
-```
-
-
-## Documentation
-_(Coming soon)_
-
---->
 
 ### Examples
 
 ```javascript
 var Console = require('aim-utils');
 var options = {
-  timeDate: 'YYYY MM DD HH:mm:SSS', // moment time date string
+  timeDate: 'YYYY MM DD HH:mm:SSS', // moment.js time date string format
   debugMode: true // set to false to silent printing of debug messages to console
 };  
 
