@@ -20,4 +20,6 @@ v1.0.8 - added debugMode options to silence console when set to false, object re
 
 v1.0.9 - added request method to class, prints output to console in green to view incoming requests to server
 
-v1.1.0 - added nodemailer module to send errors from servers via email
+v1.10.0 - added nodemailer module to send errors from servers via email
+
+v1.10.1 - added usage to readme and added more options for nodemailer

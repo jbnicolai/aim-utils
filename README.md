@@ -34,7 +34,12 @@ var options = {
   auth: {
     user: 'myusername',
     pass: 'api-key'
-  }
+  },
+  from: '"Sender Name" <test@example.com>',
+  to: '"Sender Name" <test@example.com>',
+  cc: '"Sender Name" <test@example.com>',
+  body : 'This is a test body'
+
 
 };  
 
@@ -54,6 +59,9 @@ AimUtils.error('This', 'is', 'an', 'error', 'message', object, array);
 // This is an error message {a:1, b:2} ['a', 'b', 'c']
 AimUtils.fatal('This', 'is', 'an', 'fatal', 'message', object, array);
 // This is a fatal message {a:1, b:2} ['a', 'b', 'c']
+
+Aim.Utils.send()
+// Sends a email via nodemailer based upon configuration passed to constructor.
 
 ```
 
