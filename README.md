@@ -29,7 +29,13 @@ Install the module with
 var Console = require('aim-utils');
 var options = {
   timeDate: 'YYYY MM DD HH:mm:SSS', // moment.js time date string format
-  debugMode: true // set to false to silent printing of debug messages to console
+  debugMode: true, // set to false to silent printing of debug messages to console
+  service: 'Mandrill',  // valid nodemailer options for provider with auth user and pass for accessing api
+  auth: {
+    user: 'myusername',
+    pass: 'api-key'
+  }
+
 };  
 
 var AimUtils = new Console(options);

@@ -1,6 +1,6 @@
 {
   "name": "aim-utils",
-  "version": "1.0.9",
+  "version": "1.10.0",
   "description": "console utils",
   "main": "./lib/index.js",
   "author": "simon-p-r",
@@ -8,13 +8,14 @@
   "dependencies": {
     "chalk": "^0.5.1",
     "hoek": "^2.8.1",
-    "moment": "^2.8.3"
+    "moment": "^2.8.3",
+    "node-mailer": "^0.1.1"
   },
-  "repository" : {
-    "type" :"git",
+  "repository": {
+    "type": "git",
     "url": "git@github.com:circabs/aim-utils.git"
   },
-  "bugs" : {
+  "bugs": {
     "url": "https://github.com/circabs/aim-utils/issues"
   }
 }

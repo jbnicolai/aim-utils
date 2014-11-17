@@ -8,7 +8,7 @@ v1.0.2 - fix readme for npm
 
 v1.0.3 - final fixes to readme
 
-v.1.0.4 - fixed format for npm
+v1.0.4 - fixed format for npm
 
 v1.0.5 - tidy up example
 
@@ -19,3 +19,5 @@ v1.0.7 - fixed returns of functions due to bug with incorrect order and times be
 v1.0.8 - added debugMode options to silence console when set to false, object required to pass to constructor function to use.
 
 v1.0.9 - added request method to class, prints output to console in green to view incoming requests to server
+
+v1.1.0 - added nodemailer module to send errors from servers via email
