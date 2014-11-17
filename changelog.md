@@ -23,3 +23,5 @@ v1.0.9 - added request method to class, prints output to console in green to vie
 v1.10.0 - added nodemailer module to send errors from servers via email
 
 v1.10.1 - added usage to readme and added more options for nodemailer
+
+v1.10.2 - fixedtypo in readme

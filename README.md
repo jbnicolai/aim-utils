@@ -60,7 +60,7 @@ AimUtils.error('This', 'is', 'an', 'error', 'message', object, array);
 AimUtils.fatal('This', 'is', 'an', 'fatal', 'message', object, array);
 // This is a fatal message {a:1, b:2} ['a', 'b', 'c']
 
-Aim.Utils.send()
+AimUtils.send()
 // Sends a email via nodemailer based upon configuration passed to constructor.
 
 ```
