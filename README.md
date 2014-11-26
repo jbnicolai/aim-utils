@@ -28,17 +28,8 @@ Install the module with
 ```javascript
 var Console = require('aim-utils');
 var options = {
-  timeDate: 'YYYY MM DD HH:mm:SSS', // moment.js time date string format
+  timeDate: 'YYYY MM DD HH:mm:SSS', // moment.js time date string format, if option omitted console messages will print in pure text with colours only
   debugMode: true, // set to false to silent printing of debug messages to console
-  service: 'Mandrill',  // valid nodemailer options for provider with auth user and pass for accessing api
-  auth: {
-    user: 'myusername',
-    pass: 'api-key'
-  },
-  from: '"Sender Name" <test@example.com>',
-  to: '"Sender Name" <test@example.com>',
-  cc: '"Sender Name" <test@example.com>',
-  body : 'This is a test body'
 
 
 };  
@@ -60,8 +51,6 @@ AimUtils.error('This', 'is', 'an', 'error', 'message', object, array);
 AimUtils.fatal('This', 'is', 'an', 'fatal', 'message', object, array);
 // This is a fatal message {a:1, b:2} ['a', 'b', 'c']
 
-AimUtils.send()
-// Sends a email via nodemailer based upon configuration passed to constructor.
 
 ```
 

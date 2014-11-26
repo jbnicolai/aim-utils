@@ -14,7 +14,7 @@ v1.0.5 - tidy up example
 
 v1.0.6 - changed formatting of console
 
-v1.0.7 - fixed returns of functions due to bug with incorrect order and times being displayed async and not sync order.  Addedd ability to pass as only option the moment format string to constructor function to tailor console time and date to users liking.
+v1.0.7 - fixed returns of functions due to bug with incorrect order and times being displayed async and not sync order.  Added ability to pass as only option the moment format string to constructor function to tailor console time and date to users liking.
 
 v1.0.8 - added debugMode options to silence console when set to false, object required to pass to constructor function to use.
 
@@ -25,3 +25,5 @@ v1.10.0 - added nodemailer module to send errors from servers via email
 v1.10.1 - added usage to readme and added more options for nodemailer
 
 v1.10.2 - fixedtypo in readme
+
+v1.10.3 - if timeDate option is omitted it removes message formatting and prints pure text, removed nodemailer options (new module will be created to handle this).  Fixed bug with request method not working.  Todo tidy up stop nodejs function to be stand alone fucntion not bound to hapi method

@@ -1,6 +1,6 @@
 {
   "name": "aim-utils",
-  "version": "1.10.2",
+  "version": "1.10.3",
   "description": "console utils",
   "main": "./lib/index.js",
   "author": "simon-p-r",
