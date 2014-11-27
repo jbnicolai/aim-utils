@@ -29,7 +29,7 @@ Install the module with
 var Console = require('aim-utils');
 var options = {
   timeDate: 'YYYY MM DD HH:mm:SSS', // moment.js time date string format, if option omitted console messages will print in pure text with colours only
-  debugMode: true, // set to false to silent printing of debug messages to console
+  debugMode: true, // set to false or not specify at all to silent printing of debug messages to console
 
 
 };  

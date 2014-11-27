@@ -1,6 +1,6 @@
 {
   "name": "aim-utils",
-  "version": "1.10.3",
+  "version": "1.10.4",
   "description": "console utils",
   "main": "./lib/index.js",
   "author": "simon-p-r",
@@ -9,8 +9,6 @@
     "chalk": "^0.5.1",
     "hoek": "^2.8.1",
     "moment": "^2.8.3",
-    "node-mailer": "^0.1.1",
-    "nodemailer": "^1.3.0"
   },
   "repository": {
     "type": "git",
