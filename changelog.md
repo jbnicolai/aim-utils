@@ -29,3 +29,5 @@ v1.10.2 - fixedtypo in readme
 v1.10.3 - if timeDate option is omitted it removes message formatting and prints pure text, removed nodemailer options (new module will be created to handle this).  Fixed bug with request method not working.  Todo tidy up stop nodejs function to be stand alone fucntion not bound to hapi method
 
 v1.10.4 - removed nodemailer package from package.json file, fixed bug with debug method not being silenced correctly - either completely omit from config options or set to false to silence debug messages to console
+
+v1.10.5 - fixed issue with console file making a require for not used nodemailer, this caused npm problems installing package - updated npm repo as well.
