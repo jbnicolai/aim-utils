@@ -34,7 +34,7 @@ var options = {
 
 };  
 
-var AimUtils = new Console(options);
+var AimUtils = Console(options);
 
 var object = {a:1, b:2}
 var array =['a', 'b', 'c'];

@@ -33,3 +33,5 @@ v1.10.4 - removed nodemailer package from package.json file, fixed bug with debu
 v1.10.5 - fixed issue with console file making a require for not used nodemailer, this caused npm problems installing package - updated npm repo as well.
 
 v1.10.6 - fixed bug in warn method
+
+v1.10.7 - changed exported module to allow better external consumption
